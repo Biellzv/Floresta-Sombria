@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <title>A Floresta Sombria</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpeg" alt="">
+            <p>A floresta está mergulhada em uma escuridão quase impenetrável, e o som de galhos se partindo e sussurros inquietantes cercam você. A lua, parcialmente coberta por nuvens espessas, projeta sombras distorcidas. Um vento gelado sopra, arrepiando sua pele. Você sente que algo ou alguém está te observando, mas não consegue identificar de onde vem a sensação.</p>
+            <button class="btn-proximo" data-proximo="1">Você decide correr, desesperado para sair da floresta e encontrar um lugar seguro.</button>
+            <button class="btn-proximo" data-proximo="2">Armando-se de coragem, você caminha em direção aos barulhos, tentando descobrir o que está causando os sons.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.jpeg" alt="">
+            <p>Você corre sem olhar para trás, mas a sensação de estar sendo seguido aumenta a cada passo. A floresta parece se estender infinitamente, como se estivesse brincando com você. Subitamente, uma névoa espessa surge do chão, cobrindo tudo ao redor e tornando impossível enxergar. A temperatura cai bruscamente, e você ouve vozes murmurando dentro da névoa.</p>
+            <button class="btn-proximo" data-proximo="3">Você decide sair do caminho principal e encontrar um desvio pela mata fechada, esperando escapar da névoa.</button>
+            <button class="btn-proximo" data-proximo="4">Você para, acreditando que ficar imóvel até a névoa se dissipar é mais seguro. </button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.jpeg" alt="">
+            <p>Você segue cuidadosamente os sons, desviando dos galhos e raízes que parecem tentar te prender. Depois de alguns minutos, as pegadas surgem no chão. Elas levam até uma cabana velha e decrépita, escondida entre as árvores. As janelas estão quebradas, e uma luz fraca e pulsante parece vir de dentro. Há um cheiro de madeira queimada misturado a algo metálico.</p>
+            <button class="btn-proximo" data-proximo="5">Você decide entrar na cabana, mesmo sentindo um arrepio na espinha.</button>
+            <button class="btn-proximo" data-proximo="6">Você decide ignorar a cabana e seguir as pegadas, curioso para onde elas levam.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.jpeg" alt="">
+            <p>Você avança pela mata fechada, tropeçando em raízes e ouvindo sussurros que parecem vir das árvores ao seu redor. Seus pés tropeçam em algo metálico. Uma armadilha enferrujada se fecha com um estrondo, mas você consegue escapar por pouco. O som ecoa pela floresta, e risadas distantes começam a preencher o ambiente.</p>
+            <button class="btn-proximo" data-proximo="7">Você decide continuar avançando, determinado a encontrar um novo caminho.</button>
+            <button class="btn-proximo" data-proximo="8">Você decide voltar ao caminho principal, acreditando que ele pode ser sua melhor chance de sair.</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.jpeg" alt="">
+            <p>Você se senta no chão, tentando controlar sua respiração. A névoa parece ganhar vida, se movendo de maneira antinatural ao seu redor. Figuras humanoides começam a surgir dentro dela. Seus olhos brilham em um tom amarelo, e seus movimentos são erráticos e desumanos. Eles se aproximam lentamente.</p>
+            <button class="btn-proximo" data-proximo="9">Você pega um galho e se prepara para enfrentar as figuras.</button>
+            <button class="btn-proximo" data-proximo="10">Você se levanta e corre, mesmo sem enxergar para onde está indo.</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo5.jpeg" alt="">
+            <p>A cabana está cheia de poeira e teias de aranha. Ao entrar, um forte cheiro de mofo e madeira podre invade suas narinas. Há manchas de sangue no chão e várias marcas de arranhões nas paredes. Você encontra um diário velho, aberto, com páginas cheias de símbolos estranhos e desenhos de uma criatura deformada.</p>
+            <button class="btn-proximo" data-proximo="11">Você decide ler o diário para entender o ritual.</button>
+            <button class="btn-proximo" data-proximo="12">Você sai imediatamente da cabana, sentindo que está em grande perigo.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo6.jpeg" alt="">
+            <p>Você decide ignorar a cabana e continua seguindo as pegadas. Elas levam você a um cemitério antigo, com túmulos quebrados e lápides cobertas por musgo. No centro do cemitério, há um mausoléu de pedra, com uma porta entreaberta e uma sensação de frio vindo de dentro.</p>
+            <button class="btn-proximo" data-proximo="13">Você decide explorar o mausoléu, curioso sobre o que há dentro.</button>
+            <button class="btn-proximo" data-proximo="14">Você decide sair do cemitério rapidamente, sentindo um grande medo se aproximando.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7.jpeg" alt="">
+            <p>Enquanto você avança pelo caminho alternativo, a vegetação se torna mais espessa, e os sons ao seu redor parecem aumentar. Você começa a ouvir uma risada baixa, quase inaudível. De repente, o caminho à sua frente se abre para revelar um altar feito de ossos humanos, coberto com símbolos estranhos desenhados com sangue seco.</p>
+            <button class="btn-proximo" data-proximo="15">Você se aproxima do altar e decide tocar no símbolo, sentindo uma estranha energia.</button>
+            <button class="btn-proximo" data-proximo="16">Você ignora o altar e decide seguir em frente, tentando não olhar para trás.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.jpeg" alt="">
+            <p>Você começa a voltar para o caminho principal, sentindo os passos rápidos atrás de você. A sensação de estar sendo seguido se intensifica, e ao olhar para trás, você vê uma sombra se movendo rapidamente entre as árvores. O pânico aumenta e seus pés começam a se arrastar pelo medo.</p>
+            <button class="btn-proximo" data-proximo="17">Você decide correr, ignorando a direção, apenas para escapar da sombra que te persegue.</button>
+            <button class="btn-proximo" data-proximo="18">Você se vira para enfrentar a sombra, tentando descobrir o que está te seguindo.</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo9.jpeg" alt="">
+            <p>Você empunha o galho como uma espada e avança em direção às figuras. Elas se aproximam mais e mais, seus olhos brilhando intensamente na névoa. Quando você ataca, elas se dissipam em uma nuvem de fumaça e desaparecem, mas o som das risadas se torna mais alto e mais próximo.</p>
+            <button class="btn-proximo" data-proximo="19">Você decide continuar lutando, acreditando que pode derrotá-las.</button>
+            <button class="btn-proximo" data-proximo="20">Você começa a correr, agora desesperado, tentando escapar da névoa e das figuras.</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo10.jpeg" alt="">
+            <p>Você corre sem parar, não importa para onde. O som das figuras desaparecendo é rapidamente substituído pelo barulho da névoa se fechando ao seu redor. O vento se intensifica e, de repente, você tropeça, caindo de cara no chão. O que parecia ser uma fuga rápida se transforma em um pesadelo sem fim.</p>
+            <button class="btn-proximo" data-proximo="21">Você se levanta e tenta correr mais rápido, sem olhar para trás.</button>
+            <button class="btn-proximo" data-proximo="22">Você decide parar e se esconder, acreditando que pode encontrar um refúgio na floresta.</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11.jpeg" alt="">
+            <p>O diário revela que o único jeito de escapar da floresta é realizar um ritual de salvação, mas ele tem um preço. A criatura que assombra o local exige um sacrifício para abrir o caminho para a liberdade. Você começa a ouvir passos atrás de você, e as sombras nas paredes da cabana se movem de maneira ameaçadora.</p>
+            <button class="btn-proximo" data-proximo="23">Você decide realizar o ritual, sacrificando algo importante para escapar da floresta.</button>
+            <button class="btn-proximo" data-proximo="24">Você rasga o diário, ignorando suas advertências, e decide fugir da cabana imediatamente.</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="cenario-passo12.jpeg" alt="">
+            <p>Ao sair da cabana, a floresta parece ainda mais escura e ameaçadora. O vento sopra com força, fazendo as árvores rangerem. Você começa a ouvir passos atrás de você, cada vez mais próximos. Um brilho estranho em suas costas faz você se virar para olhar, mas não vê nada. Apenas a sensação de que algo está te observando.</p>
+            <button class="btn-proximo" data-proximo="25">Você decide correr desesperadamente, tentando escapar da floresta sem olhar para trás.</button>
+            <button class="btn-proximo" data-proximo="26">Você se vira e encara o que está te seguindo, pronto para enfrentar o que quer que seja.</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="cenario-passo13.jpeg" alt="">
+            <p>O mausoléu é frio e úmido, com uma porta de pedra entreaberta. Você empurra a porta, que range, revelando um corredor escuro e estreito. Lá dentro, o ar está pesado, como se algo estivesse esperando por você. No fundo, há uma sombra se movendo lentamente entre as sombras, e a cada passo, o ar fica mais denso.</p>
+            <button class="btn-proximo" data-proximo="27">Você decide avançar, atraído pela presença estranha que sente no fundo do mausoléu.</button>
+            <button class="btn-proximo" data-proximo="28">Você decide sair do mausoléu rapidamente, sentindo uma sensação de perigo iminente.</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="cenario-passo14jpeg" alt="">
+            <p>Você decide sair do cemitério rapidamente, com o coração acelerado e a sensação de estar sendo observado. O vento começa a soprar mais forte, e você ouve o som de algo se movendo na escuridão atrás de você. Sua respiração fica mais ofegante, mas você corre até sair da área. Quando você olha para trás, tudo está em silêncio novamente, mas o medo persiste.</p>
+            <button class="btn-proximo" data-proximo="29">Você decide procurar uma estrada para fora da floresta, acreditando que isso pode ser sua única chance de escapar.</button>
+            <button class="btn-proximo" data-proximo="30">Você para e escuta, tentando identificar o som, antes de continuar com mais cautela.</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="cenario-passo15.jpeg" alt="">
+            <p>Você se aproxima do altar feito de ossos, sentindo uma energia estranha que o atrai. Ao tocar no símbolo, uma luz vermelha e pulsante emerge do altar, iluminando o campo ao seu redor. O chão treme, e você ouve uma voz grave sussurrando palavras incompreensíveis. O ar se torna mais espesso, e você sente uma presença iminente.</p>
+            <button class="btn-proximo" data-proximo="31">Você decide enfrentar o que vem, determinado a usar o poder do altar para sua fuga.</button>
+            <button class="btn-proximo" data-proximo="32">Você tenta afastar as mãos do altar, temendo o que pode acontecer a seguir.</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="cenario-passo16.jpeg" alt="">
+            <p>Você decide seguir em frente, ignorando o altar. O ar fica mais pesado à medida que você avança, e os sussurros que antes eram distantes agora ficam mais altos, mais nítidos. A sensação de que você está sendo caçado cresce a cada passo. A floresta ao redor parece engolir você cada vez mais.</p>
+            <button class="btn-proximo" data-proximo="33">Você decide parar e se esconder entre as árvores, tentando perder a presença que o segue.</button>
+            <button class="btn-proximo" data-proximo="34">Você decide continuar correndo, com a esperança de encontrar uma saída da floresta antes que seja tarde.</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <img src="cenario-passo17.jpeg" alt="">
+            <p>Você corre desesperadamente, ignorando o caminho e se lançando na escuridão da floresta. A sensação de ser perseguido aumenta, mas você não consegue ver nada. De repente, você tropeça e cai em uma pequena clareira. Ao se levantar, um vulto surge à sua frente, uma figura fantasmagórica que parece vir de todos os lados ao mesmo tempo.</p>
+            <button class="btn-proximo" data-proximo="35">Você decide enfrentar a figura, mesmo sem saber o que realmente é.</button>
+            <button class="btn-proximo" data-proximo="36">Você tenta fugir mais uma vez, mesmo sabendo que não pode continuar fugindo para sempre.</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <img src="cenario-passo18.jpeg" alt="">
+            <p>Você se vira para enfrentar a sombra que te segue, mas ao olhar, não vê nada. O silêncio é absoluto. No entanto, ao virar de volta, você encontra uma figura fantasmagórica atrás de você. Ela está parada, observando, com olhos vazios e uma expressão de pura malícia. O tempo parece congelar.</p>
+            <button class="btn-proximo" data-proximo="37">Você tenta atacar a figura com um galho que encontra no chão, esperando espantá-la.</button>
+            <button class="btn-proximo" data-proximo="38">Você começa a correr, mas desta vez com a sensação de que há algo mais sobrenatural tentando te alcançar.</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <img src="cenario-passo19.jpeg" alt="">
+            <p>Você avança contra a figura, mas ela se dissolve em uma nuvem de sombras, deixando uma sensação de frio intenso no ar. As risadas voltam mais altas, e você percebe que não está sozinho. As árvores ao seu redor começam a se mover de maneira antinatural, como se estivessem vivas e querendo te aprisionar.</p>
+            <button class="btn-proximo" data-proximo="39">Você tenta lutar contra as árvores, usando tudo que está ao seu alcance para se libertar.</button>
+            <button class="btn-proximo" data-proximo="40">Você decide correr para longe das árvores, ignorando o que as sombras querem de você.</button>
+        </div>
+        <div class="passo" id="passo-20">
+            <img src="cenario-passo20.jpeg" alt="">
+            <p>Você corre o mais rápido possível, mas a névoa parece se fechar a cada passo que você dá. As figuras na névoa começam a se formar novamente, esta vez mais próximas, suas expressões grotescas e maliciosas. Cada respiração é difícil, e o medo de ser consumido pela escuridão cresce a cada segundo.</p>
+            <button class="btn-proximo" data-proximo="41">Você decide se virar e lutar, pegando o primeiro objeto que encontra no chão.</button>
+            <button class="btn-proximo" data-proximo="42">Você tenta correr para onde a névoa parece mais fina, apostando em escapar pela borda da floresta.</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <img src="cenario-passo21.jpeg" alt="">
+            <p>Você se levanta e começa a correr mais rápido, sentindo o peso das sombras atrás de você. O som das risadas e os passos que o seguem se tornam mais nítidos, mais próximos. Ao olhar para trás, você vê a figura espectral que o persegue, com olhos vermelhos brilhantes, se aproximando rapidamente.</p>
+            <button class="btn-proximo" data-proximo="43">Você tenta usar a escuridão ao seu favor, desviando e correndo por caminhos não iluminados.</button>
+            <button class="btn-proximo" data-proximo="44">Você decide continuar correndo em linha reta, acreditando que pode escapar dessa forma.</button>
+        </div>
+        <div class="passo" id="passo-22">
+            <img src="cenario-passo22.jpeg" alt="">
+            <p>Você se esconde atrás de uma árvore, tentando conter a respiração. Os passos aumentam, se aproximando de onde você está escondido. A figura passa diante de você, mas não parece te ver. Quando ela desaparece na escuridão, você se levanta cautelosamente, tentando encontrar uma saída do pesadelo.</p>
+            <button class="btn-proximo" data-proximo="45">Você decide seguir em frente, sem fazer barulho, para evitar chamar mais atenção.</button>
+            <button class="btn-proximo" data-proximo="46">Você tenta voltar para a clareira, esperando encontrar uma saída da floresta.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
